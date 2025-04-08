@@ -1,0 +1,272 @@
+body{
+    overflow-x: hidden;
+}
+.about-website{
+    background-color: rgb(138, 185, 138);
+    color:white;
+    text-align: center;
+    padding:0.3%;
+}
+.rasi-prints{
+    background-image:linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)),url(image/background.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:120vh;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:3%;
+    align-items: center;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: white;
+}
+.rasi-prints h1{
+    font-size: 600%;
+}
+.level{
+    font-size: 250%;
+    text-align: center;
+}
+h3{
+    font-size: 200%;
+}
+#contact-button{
+    width:10%;
+    height: 70px;
+    background-color: gray;
+    color:white;
+    font-size: 120%;
+    font-weight: bold;
+    border: none;
+}
+.sub-topics{
+    text-align: center;
+    width:90%;
+    margin: auto;
+    padding: 3%;
+    line-height: 2;
+}
+.sub-topics h2{
+    font-size: 300%;
+}
+.modern-sophostication{
+    display: flex;
+    padding:5%;
+    gap:300px;
+    font-size: larger;
+}
+.modern-sophostication img{
+    width:120%;
+    height: 80vh;
+}
+.screen-printing{
+    width:35%;
+    line-height: 2;
+}
+#know-more{
+    width:40%;
+    height: 70px;
+    background-color: rgb(12, 134, 39);
+    color:white;
+    font-size: 120%;
+    border: none;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+#know-more i{
+    margin-left: 5%;
+    rotate: -45deg;
+}
+#contact-us{
+    width:40%;
+    height: 70px;
+    background-color:rgb(243, 237, 237);
+    color:black;
+    font-size: 120%;
+    border: none;
+    align-items: center;
+    border-radius: 30px;
+}
+#contact-us i{
+    margin-left: 5%;
+    rotate: -45deg;
+}
+.our-services{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 224, 224);
+    padding:2%;
+    font-size: 160%;
+}
+.our-services img{
+    width:20%;
+}
+.each-service{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border-radius: 5%;
+    padding:2%;
+    justify-content: space-between;
+}
+.printing-techniques{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: auto;
+    line-height: 2;
+}
+.printing-techniques img{
+    width:450px;
+    height:400px;
+    border-radius: 5%;
+}
+.each-technique{
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+.printing-techniques i{
+    padding: 4%;
+    border:none;
+    background-color: rgb(192, 188, 188);
+    color:black;
+    border-radius: 50%;
+    font-size: x-large;
+}
+.modern-sophostication h5{
+    color:green;
+}
+.garment-industry{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+}
+.specific-garment{
+    width:18%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logos{
+    width:150px;
+    height:100px;
+    border-radius: 5%;
+}
+.our-quality{
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+}
+#star-icons{
+    color:green;
+    height:50px;
+}
+.message{
+    width:40%;
+    line-height: 2;
+}
+.our-quality img{
+    width:800px;
+    height:500px;
+}
+.companies{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(218, 226, 224);
+    padding:5%;
+    width:90%;
+    margin: auto;
+}
+.proudest-works{
+    margin-left:3%;
+}
+.proudest-works img{
+    width:550px;
+    height:650px;
+    padding:0.5%;
+}
+#image{
+    width:100%;
+    margin-right: 3%;
+}
+.location {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#map-image{
+    position: relative;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.detailed-address{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+.detailed-address i {
+    padding: 4%;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: x-large;
+}
+.address{
+    position: absolute;
+    border: solid 1px transparent;
+    padding: 2%;
+    width:20%;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 7% 10%;
+    box-shadow: 0px 0px 10px 0 rgba(46, 45, 45, 0.5);
+
+}
+.our-footer{
+    color:white;
+    background-color: rgb(17, 18, 59);
+    padding:3%;
+    list-style-type: none;
+    line-height: 2;
+    text-align: center;
+    align-items: center;
+}
+.summary{
+    display:flex;
+    justify-content:space-between;
+}
+.our-footer a{
+    text-decoration: none;
+    color: white;
+}
+.our-footer img{
+    border-radius: 3%;
+    height: 40%;
+}
+.conclusion{
+    width:25%;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-office{
+    width:20%;
+}
