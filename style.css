@@ -185,7 +185,7 @@ h3{
 .companies{
     display:flex;
     justify-content: space-between;
-    background-color: rgb(218, 226, 224);
+    background-color: rgb(243, 250, 248);
     padding:5%;
     width:90%;
     margin: auto;
@@ -279,6 +279,9 @@ h3{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+    .head-office,.message,.address,.conclusion{
+        width:100%;
     }
 } 
 
