@@ -1,1 +1,1 @@
-// alert("This is my trial.")
+alert("This is my trial.")

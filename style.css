@@ -270,3 +270,20 @@ h3{
 .head-office{
     width:20%;
 }
+@media screen and (max-width: 768px){
+    nav ul, br{
+        display: none;
+    }
+    .navigation-bar, .modern-sophostication, .our-services, .each-service, .printing-techniques, .each-technique, .garment-industry, .specific-garment,.our-quality,.companies,.location,.detailed-address,.summary,.contacts{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+} 
+
+
+
+
+
+
